@@ -1,33 +1,34 @@
 # 📚 KomikAziz
 
-Aplikasi Android pembaca komik online berbasis API [Komikku](https://github.com/Romi666/komikku-api). Aplikasi ini dirancang untuk menampilkan daftar komik, detail komik, dan membaca halaman per halaman chapter komik menggunakan `ViewPager2`.
+Aplikasi Android pembaca komik online berbasis API [Komikku](https://github.com/Romi666/komikku-api).  
+Aplikasi ini dirancang untuk menampilkan daftar komik, detail komik, dan membaca halaman per halaman chapter komik menggunakan `ViewPager2`.
 
 ---
 
 ## ✨ Fitur Utama
 
-- 🔍 Pencarian komik berdasarkan judul
-- 📄 Menampilkan detail komik (judul, genre, penulis, sinopsis, dll)
-- 📚 Daftar chapter yang dapat dibaca
-- 🖼️ Pembaca komik halaman per halaman dengan `ViewPager2`
-- ❤️ Menyimpan komik favorit menggunakan SQLite
-- ⚡ Terhubung ke API Komikku untuk data real-time
+- 🔍 Pencarian komik berdasarkan judul  
+- 📄 Menampilkan detail komik (judul, genre, penulis, sinopsis, dll)  
+- 📚 Daftar chapter yang dapat dibaca  
+- 🖼️ Pembaca komik halaman per halaman dengan `ViewPager2`  
+- ❤️ Menyimpan komik favorit menggunakan SQLite  
+- ⚡ Terhubung ke API Komikku untuk data real-time  
 
 ---
 
 ## 📱 Tampilan Aplikasi
+<img width="1080" height="2400" alt="Screenshot_20250804_211811" src="https://github.com/user-attachments/assets/41941dee-0f05-439f-9f15-8d76aae19ec3" />
 
-> (Tambahkan screenshot jika ada)
 
 ---
 
 ## 🧩 Teknologi yang Digunakan
 
 - **Java** (Android)
-- **Volley** untuk HTTP request
-- **ViewPager2** untuk pembaca halaman komik
-- **SQLite** untuk menyimpan komik favorit
-- **Komikku API** sebagai sumber data komik
+- **Volley** – Untuk HTTP request
+- **ViewPager2** – Untuk pembaca halaman komik
+- **SQLite** – Untuk menyimpan data komik favorit
+- **Komikku API** – Sumber data komik online
 
 ---
 
@@ -38,7 +39,9 @@ Aplikasi Android pembaca komik online berbasis API [Komikku](https://github.com/
 ```bash
 git clone https://github.com/username/komikaziz.git
 cd komikaziz
-Buka dengan Android Studio
+```
+
+Buka proyek dengan Android Studio
 
 Pastikan koneksi internet aktif
 
@@ -52,17 +55,21 @@ Jalankan aplikasi di emulator atau perangkat fisik
 📖 Chapter Komik: https://komiku-api.fly.dev/api/comic/chapter{endpoint}
 
 ⚠️ Catatan
-Pastikan chapter memiliki gambar sebelum ditampilkan. Beberapa endpoint mungkin belum memiliki konten.
+Pastikan chapter memiliki gambar sebelum ditampilkan.
 
-Aplikasi hanya sebagai client reader, tidak menyimpan konten di dalam perangkat.
+Beberapa endpoint mungkin belum memiliki konten.
 
-Sumber komik sepenuhnya berasal dari Komikku API.
+Aplikasi ini hanya sebagai client reader dan tidak menyimpan konten di perangkat.
+
+Semua data dan gambar berasal dari Komikku API.
 
 📩 Kontribusi
-Pull request dan saran sangat diterima! Buatlah issue jika kamu menemukan bug atau ingin menambahkan fitur.
+Pull request dan saran sangat diterima!
+Buatlah issue jika kamu menemukan bug atau ingin menambahkan fitur.
 
 📄 Lisensi
 Proyek ini menggunakan lisensi MIT.
 
 🙋 Tentang
 Aplikasi ini dibuat oleh Aziz Choirudin sebagai proyek pembelajaran Android dan integrasi API publik.
+
