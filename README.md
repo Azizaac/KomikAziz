@@ -17,9 +17,7 @@ Aplikasi ini dirancang untuk menampilkan daftar komik, detail komik, dan membaca
 ---
 
 ## 📱 Tampilan Aplikasi
-<img width="1080" height="2400" alt="Screenshot_20250804_211811" src="https://github.com/user-attachments/assets/41941dee-0f05-439f-9f15-8d76aae19ec3" />
-
-
+<img src="https://github.com/user-attachments/assets/41941dee-0f05-439f-9f15-8d76aae19ec3" alt="Screenshot" style="width: 300px; border-radius: 10px;" />
 ---
 
 ## 🧩 Teknologi yang Digunakan
